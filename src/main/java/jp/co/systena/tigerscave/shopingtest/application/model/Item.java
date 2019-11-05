@@ -1,12 +1,9 @@
-package jp.co.systena.tigerscave.shopingtest.application.controller.service.Item;
+package jp.co.systena.tigerscave.shopingtest.application.model;
 
 public class Item {
-    private int itemId;
-    private String name;
-    private int price;
-
-    public Item() {
-    }
+    private int itemId; //商品ID
+    private String name;//商品名
+    private int price;  //価格
 
     public Item(int i, String n, int p) {
         this.itemId = i;
